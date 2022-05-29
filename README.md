@@ -9,13 +9,10 @@ Algoritmo que resuelve TSP con Nearest insertion (Algoritmo de inserción mas ce
         
  <ol>
 
- <li value="1">Encuentra un nodo k que no esté en el subtour, que este lo mas cercano posible a 
-            cualquier nodo del subtour. </li>
- <li>Encuentra un arco (i,j) del subtour para el cual la inserción de k da el menor incremento 
-            de longitud (∆f)</li>
- <li> Este será el 22. Y así sucesivamente. </li>
- <li>Modifique el subtour mediante la inserción de k entre i y j.</li>
-        
-<li> Vaya al paso 3 hasta que se haya formado un tour TSP (Un tour TSP es cuando se completa el viaje y el viajero vuelve al nodo de inicio).</li>
+ <li value="1">Escoge un nodo arbitrario i como nodo de inicio.</li>
+ <li>Encuentra el nodo más cercano a i. El nodo j para el cual la distancia cij es la menor. Forma el subtour T=i-j-i.</li>
+ <li>Encuentra un nodo k que no esté en el subtour T que esté lo más cercano posible de cualquier nodo del subtour T.</li>
+ <li> Modifique el subtour T mediante la inserción de k entre i y j. </li>
+ <li>Vaya al paso 3 hasta que se haya formado un tour TSP.</li>
         
 </ol>
