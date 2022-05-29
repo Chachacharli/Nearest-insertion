@@ -17,3 +17,21 @@ Algoritmo que resuelve TSP con Nearest insertion (Algoritmo de inserción mas ce
  <li>Vaya al paso 3 hasta que se haya formado un tour TSP.</li>
         
 </ol>
+<p>
+  Ruta para 5 nodos:
+</p>
+<p align="center">
+  <img src="Images/5nodes.png" width="640" title="5nodes">
+</p>
+<p>
+Ruta para 48 nodos:
+</p>
+<p align="center">
+  <img src="Images/48nodes.png" width="640" title="48nodes">
+</p>
+<p>
+Ruta para 101 nodos:
+</p>
+<p align="center">
+  <img src="Images/101nodes.png" width="640" title="101nodes">
+</p>
