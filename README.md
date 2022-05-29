@@ -18,4 +18,4 @@ Algoritmo que resuelve TSP con Nearest insertion (Algoritmo de inserción mas ce
         
 <li> Vaya al paso 3 hasta que se haya formado un tour TSP (Un tour TSP es cuando se completa el viaje y el viajero vuelve al nodo de inicio).</li>
         
-    </ol>
+</ol>
